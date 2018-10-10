@@ -32,7 +32,7 @@ def hit?
   hit? = card_total
 end
 
-def invalid_command do 
+def invalid_command do
   if input is neither "h" nor "s"
 end
 
