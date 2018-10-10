@@ -15,11 +15,13 @@ def prompt_user
 end
 
 def get_user_input
-  # code #get_user_input here
+  get_user_input = gets
 end
 
 def end_game
-  # code #end_game here
+end_game = 0
+until end_game == 21
+  puts "Sorry! you hit #{card_total}"
 end
 
 def initial_round
