@@ -25,7 +25,7 @@ until end_game == 21
 end
 
 def initial_round
-  sum = card_total + card_total
+  sum = deal_card + deal_card
 end
 
 def hit?
