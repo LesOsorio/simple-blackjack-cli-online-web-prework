@@ -21,7 +21,7 @@ end
 def end_game
 end_game = 0
 until end_game == 21
-  puts "Sorry! you hit #{card_total}"
+  puts "Sorry! you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
